@@ -204,7 +204,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 20);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Гильза";
+            this.label3.Text = "гильза";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -228,7 +228,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(426, 18);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Дробь";
+            this.label6.Text = "дробь";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox8
@@ -449,7 +449,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(699, 18);
             this.label19.TabIndex = 39;
-            this.label19.Text = "ПОРОХ";
+            this.label19.Text = "порох";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dateTimePicker1
