@@ -10,6 +10,7 @@ namespace ReloadingCalc
             InitializeComponent();
 
         }
+        
 
         //порох
         double powder;
@@ -57,7 +58,7 @@ namespace ReloadingCalc
         double Cost(string i, string ii, string iii)
 
         {
-            double result = Convert.ToDouble(i)/ Convert.ToDouble(ii) * Convert.ToDouble(iii);
+            double result = Convert.ToDouble(i) / Convert.ToDouble(ii) * Convert.ToDouble(iii);
             return result;
         }
 
