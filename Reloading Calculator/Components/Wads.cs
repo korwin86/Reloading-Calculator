@@ -6,20 +6,19 @@ using System.Threading.Tasks;
 
 namespace ReloadingCalc.Components
 {
-    //Порох           Цена банки\Количество банок\Количество в банке\Общая цена
-    public class Powder : IComponents
+    class Wads : IComponents
     {
+        //Пыж-контейнер   Цена шт\Количество\Общая цена
         public double Price { get; set; }
-        public int Quantity { get ; set; }
-        public int Weight { get; set; }
+        public int Quantity { get; set; }
 
-        public double AllPrice(double price, int quantity, int weight)
+        public double AllPrice(double price, int quantity)
         {
             Price = price;
             Quantity = quantity;
-            Weight = weight;
             double result = Price * Quantity;
             return result;
         }
+
     }
 }

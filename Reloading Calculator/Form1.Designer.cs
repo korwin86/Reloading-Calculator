@@ -543,7 +543,7 @@
             this.tabPage1.Size = new System.Drawing.Size(596, 312);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Расширенный";
-            this.tabPage1.Enter += new System.EventHandler(this.tabPage1_Enter);
+            this.tabPage1.Enter += new System.EventHandler(this.TabPage1_Enter);
             // 
             // tabPage2
             // 
@@ -573,7 +573,7 @@
             this.tabPage2.Size = new System.Drawing.Size(596, 312);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Упрощенный";
-            this.tabPage2.Enter += new System.EventHandler(this.tabPage2_Enter);
+            this.tabPage2.Enter += new System.EventHandler(this.TabPage2_Enter);
             // 
             // label33
             // 

@@ -1,5 +1,4 @@
-﻿using ReloadingCalc.Components;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 /*
@@ -25,12 +24,12 @@ namespace ReloadingCalc
 
         }
 
-        private void tabPage1_Enter(object sender, EventArgs e)
+        private void TabPage1_Enter(object sender, EventArgs e)
         {
             this.Size = new System.Drawing.Size(620, 380);
             this.Text = "SAC A";
         }
-        private void tabPage2_Enter(object sender, EventArgs e)
+        private void TabPage2_Enter(object sender, EventArgs e)
         {
             this.Size = new System.Drawing.Size(230, 360);
             this.Text = "SAC L";
@@ -54,14 +53,10 @@ namespace ReloadingCalc
         //string sumCartridgeInPowder;
         ////количество патронов из дроби
         //string sumCartridgeInShot;
-        
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            var powder = new Powder();
-            powder.AllPrice(210, 1, 1);
-            double a = powder.Price;
-            label14.Text = Convert.ToString(a);
 
             //    powder = Cost(textBox3.Text, textBox8.Text, textBox6.Text);
             //    shot = Cost(textBox5.Text, Convert.ToString(1000), textBox7.Text);
